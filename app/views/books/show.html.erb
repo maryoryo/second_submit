@@ -1,0 +1,15 @@
+<div class="table-show-main">
+  <div class="table-show-title">
+    <p><strong>Title:&nbsp;</strong><%= @book.title %></p>
+  </div>
+
+  <div class="table-show-title">
+    <p><strong>Body:&nbsp;</strong><%= @book.body %></p>
+  </div>
+
+  <div class="showaction">
+    <p class="action"><%= link_to "Edit", edit_book_path %></p>
+    <p>&nbsp;|&nbsp;</p>
+    <p class="action"><%= link_to "Back", books_path %></p>
+  </div>
+</div>
